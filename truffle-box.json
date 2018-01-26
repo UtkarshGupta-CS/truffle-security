@@ -1,0 +1,16 @@
+{
+    "ignore": [
+      "README.md",
+      ".gitignore"
+    ],
+    "commands": {
+      "Compile": "truffle compile",
+      "Migrate": "truffle migrate",
+      "Test contracts": "truffle test",
+      "Test dapp": "npm test",
+      "Linting the Solidity Contracts": "npm run lint:sol"
+    },
+    "hooks": {
+      "post-unpack": "npm install"
+    }
+  }

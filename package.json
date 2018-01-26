@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "lint:sol": "node_modules/.bin/solium -d *",
+    "lint:sol": "node_modules/.bin/solium -d contracts/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

@@ -1,18 +1,18 @@
 {
-  "name": "security-truffle-box",
-  "version": "1.0.0",
-  "description": "",
+  "name": "truffle-box-security",
+  "version": "0.0.0",
+  "description": "Security infrastructure for Truffle DApps",
   "main": "truffle.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "lint:sol": "node_modules/.bin/solium -d contracts/",
+    "lint:sol": "node_modules/.bin/solium -d *",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT",
+  "license": "GPLv3",
   "devDependencies": {
-    "solium": "^1.1.3"
+    "solium": "1.1.3"
   }
 }

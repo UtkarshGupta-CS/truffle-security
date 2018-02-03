@@ -3,6 +3,32 @@ This is a [Truffle](http://truffleframework.com/) [Box](http://truffleframework.
 
 It aims to be a single box that meets all your requirements to write secure solidity smart contracts and is [Solium](https://github.com/duaraghav8/Solium)'s official box for Truffle.
 
+## Installation & Usage
+- Install Truffle globally
+
+        npm install -g truffle
+<br>
+
+- Download the box. This also takes care of installing the necessary dependencies.
+
+        truffle unbox UtkarshGupta-CS/truffle-security
+<br>
+
+- Compile the Contracts
+
+        truffle compile
+<br>
+
+- Deploy the compiled contracts
+
+        truffle migrate
+<br>
+
+- Linting the Solidity Contracts
+
+        npm run lint:sol
+<br>
+
 ## Available Integrations
 - [Style](http://solium.readthedocs.io/en/latest/user-guide.html#list-of-core-rules) & [Security](https://www.npmjs.com/package/solium-plugin-security#list-of-rules) linting with [Solium](https://github.com/duaraghav8/Solium)
 
